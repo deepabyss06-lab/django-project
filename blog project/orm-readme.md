@@ -395,7 +395,7 @@ starts_why = Q(title__istartswith="why")
 Post.objects.filter(starts_who | starts_why)
 ```
 
-Operators:
+Operator :
 
 | Operator | Meaning |
 |--------|--------|
